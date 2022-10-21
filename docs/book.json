@@ -1,5 +1,5 @@
 {
-    "plugins": [ "anchor-navigation-ex", "edit-link", "copy-code-button", "theme-comscore", "ga", "mermaid-newface"],
+    "plugins": [ "anchor-navigation-ex", "edit-link", "copy-code-button", "theme-comscore", "ga", "mermaid-cli"],
     "pluginsConfig": {
       "fontSettings": {
         "theme": "night",
@@ -36,8 +36,9 @@
       "ga": {
         "token": ""
       },
-	  "mermaid-newface": {
-		"theme": "neutral"
-	  }
+    "mermaid-cli": {
+      "chromeDir": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+      "chromeArgs": []
+    }
     }
 }
