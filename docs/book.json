@@ -1,5 +1,5 @@
 {
-    "plugins": [  "anchor-navigation-ex", "edit-link", "copy-code-button", "theme-comscore", "ga", "mermaid-newface"],
+    "plugins": [ "anchor-navigation-ex", "edit-link", "copy-code-button", "theme-comscore", "ga", "mermaid-newface"],
     "pluginsConfig": {
       "fontSettings": {
         "theme": "night",
@@ -36,5 +36,10 @@
       "ga": {
         "token": ""
       }
+	  "pluginsConfig": {
+		"mermaid-newface": {
+			"theme": "neutral"
+		}
+	  }
     }
 }
