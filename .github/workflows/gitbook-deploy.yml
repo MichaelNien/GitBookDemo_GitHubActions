@@ -10,6 +10,9 @@ jobs:
   build-and-deploy:
     name: Build and deploy
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [14.x]
     env:
       MY_SECRET   : ${{secrets.ACCESS_TOKEN}}
       USER_NAME   : onejar99
