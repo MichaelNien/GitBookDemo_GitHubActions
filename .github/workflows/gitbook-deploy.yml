@@ -20,7 +20,7 @@ jobs:
       BOOK_DIR    : docs
 
     steps:
-    - run: npm install gitbook-plugin-mermaid-pdf
+    - run: npm install gitbook-plugin-mermaid-gb3
     
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v3
