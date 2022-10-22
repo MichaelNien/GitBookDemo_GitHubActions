@@ -37,8 +37,7 @@
         "token": ""
       },
 	  "mermaid-gb3": {
-        "chromeDir": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
-        "chromeArgs": []
+		"theme": "forest"
       }
     }
 }
