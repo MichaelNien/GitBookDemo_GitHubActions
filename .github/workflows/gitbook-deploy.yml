@@ -15,8 +15,8 @@ jobs:
             node-version: [15.x]
     env:
       MY_SECRET   : ${{secrets.ACCESS_TOKEN}}
-      USER_NAME   : onejar99
-      USER_EMAIL  : onejar99@gmail.com
+      USER_NAME   : GitHubActions
+      USER_EMAIL  : GitHubActions@github.com
       BOOK_DIR    : docs
 
     steps:
