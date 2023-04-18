@@ -27,8 +27,8 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
     
-    - name: Checkout 🛎️
+    - name: Checkout
       uses: actions/checkout@v3.1.0
 
-    - name: Build and Deploy 🚀
+    - name: Build and Deploy
       uses: onejar99/gitbook-build-publish-action@v1.0.2
