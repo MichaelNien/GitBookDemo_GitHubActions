@@ -12,7 +12,7 @@ https://github.com/actions/setup-node
 
 https://github.com/actions/checkout
 
-部署到gh-pages分支
+編譯並且部署到gh-pages分支
 
 https://github.com/onejar99/gitbook-build-publish-action
 
